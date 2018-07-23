@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"strings"
 	"testing"
 )
@@ -51,7 +50,6 @@ func TestFileInput(t *testing.T) {
 	if len(results) != 100 {
 		t.Errorf("Expected length 100 but got: %d", len(results))
 	}
-	fmt.Println(results)
 	for i := range counts {
 		if results[i].Count != counts[i] {
 			t.Errorf("Count mismatch: Item %d expected %d but got %d", i, counts[i], results[i].Count)
