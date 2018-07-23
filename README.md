@@ -2,7 +2,7 @@
 Computes the 100 most common trigrams (sequences of three words)
 
 ## How to build and test:
-After installing go in a standard way, these commans should work out of the box:
+After installing go in a standard way, these commands should work out of the box:
 ```
 go get -d github.com/rchernobelskiy/most-common-trigrams
 go build -o main github.com/rchernobelskiy/most-common-trigrams
